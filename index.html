@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Tom Goodman</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.css">
     <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
     <link href='https://fonts.googleapis.com/css?family=Quicksand:400,300,700' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.js"></script>
     <link href="http://alexwiley.co.uk/js/simpletextrotator.css" type="text/css"/>
     <script src="http://www.thepetedesign.com/demos/jquery.simple-text-rotator.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 </head>
 
 <body>
@@ -25,8 +25,7 @@
 
   <header>
       <div id="header-content-wrap">
-          <h2>I am a <span class="rotate">Developer, Society President, Student, Cunt</span></h2>
-          Super <span class="rotate">Simple, Customizable, Light Weight, Easy</span> Text Rotator with Style
+          <h2>I am a <span class="rotate">Developer,Society President,Student</span></h2>
           <hr>
           <i class="fa fa-twitter" aria-hidden="true"></i>
           <i class="fa fa-github" aria-hidden="true"></i>
@@ -38,7 +37,7 @@
       <img src="img/jagex.svg"/>
       <img src="img/majestic.png"/>
       <img src="img/uob.png"/>
-      <img src="img/css.png"/>
+     <!--  <img src="img/css.png"/> -->
   </section>
 
   <section id="aboutme">
@@ -55,11 +54,11 @@
   </section>
 
     <script>
-        $(".rotate").textrotator({
-            animation: "flipCube",
-            speed: 1500
-        });
-        $("#header-content-wrap").css({'display': 'none'});
+	$(".rotate").textrotator({
+	  animation: "dissolve", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
+	  separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
+	  speed: 2000 // How many milliseconds until the next word show.
+	});
     </script>
 
 </body>
