@@ -1,0 +1,92 @@
+html, body, section, header, footer{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    width: 100%;
+}
+h1, h2, h3, h4, h5, h6, p, li, a{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Navigation */
+#topbar{
+    height: 60px;
+    background-color: red;
+}
+#nav-left{
+    display: inline-block;
+    width: 30%;
+    background-color: green;
+    height: 100%;
+    overflow: hidden;
+}
+#nav-left h1{
+    text-transform: uppercase;
+    padding: 15px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+}
+#nav-left h1 span{
+    font-weight: 700;
+}
+#nav-right{
+    display: inline-block;
+    width: 70%;
+    background-color: blue;
+    height: 100%;
+    margin-left: -5px;
+}
+/*Header Section */
+header{
+    height: 400px;
+    background-color: black;
+}
+#header-content-wrap{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+}
+#header-content-wrap hr{
+    width: 20%;
+    border: none;
+    height: 2px;
+    background-color: white;
+    margin-top: 20px;
+}
+#header-content-wrap i{
+    position: relative;
+    font-size: 30px;
+    padding: 10px;
+    transition: all 0.3s ease;
+    cursor: crosshair;
+}
+
+#header-content-wrap i:hover {
+    font-size: 40px;
+}
+#header-content-wrap h2{
+    font-family: 'Quicksand', 'sans-serif';
+    font-size: 35px;
+}
+
+
+/*Scrollbar Section */
+#scrollybar{
+    height: auto;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+#scrollybar img{
+    width: 200px;
+    padding: 15px 70px;
+}
+#scrollybar img:nth-child(3){
+    position: relative;
+    top: -25px;
+}
