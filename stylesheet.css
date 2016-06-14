@@ -79,6 +79,10 @@ header{
     cursor: crosshair;
 }
 
+#header-content-wrap a {
+    color: #fff;
+}
+
 #header-content-wrap i:hover {
     font-size: 50px;
 }
@@ -122,4 +126,30 @@ header{
 
 .bx-wrapper {
     max-width: 100% !important;
+}
+
+/*About Me Section */
+#profile-image {
+    text-align: center;
+    padding: 5px;
+}
+
+#profile-image img{
+    height: 300px;
+    border-radius: 99999px;
+}
+
+#aboutme p {
+    padding: 20px;
+}
+
+#profile-image {
+    height: 100%;
+    display: inline-block;
+    padding: 20px;
+}
+
+#aboutme-text {
+    height: 100%;
+    display: inline-block;
 }
