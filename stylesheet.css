@@ -69,6 +69,14 @@ header{
     background-color: white;
     margin-top: 20px;
 }
+
+#header-content-wrap span {
+    background-color: #111111;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 #header-content-wrap i{
     position: relative;
     font-size: 30px;
