@@ -4,6 +4,7 @@ html, body, section, header, footer{
     display: block;
     width: 100%;
     font-family: Quicksand, sans-serif;
+    background-color: #f2f2f2;
 }
 h1, h2, h3, h4, h5, h6, p, li, a{
     margin: 0px;
@@ -26,7 +27,6 @@ nav {
 
 #topbar{
     height: 60px;
-    background-color: red;
 }
 #nav-left{
     display: inline-block;
