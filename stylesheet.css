@@ -99,8 +99,13 @@ header{
 #iam {
     float: left;
     margin-left: 20%;
+    text-align: center;
 }
 
+#rotatey-text-wrap {
+    float: left;
+    padding-left: 10px;
+}
 
 /*Scrollbar Section */
 #scrollybar{
@@ -151,5 +156,7 @@ header{
 
 #aboutme-text {
     height: 100%;
+    width: 100%;
     display: inline-block;
+    background-color: aquamarine;
 }
