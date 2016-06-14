@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6, p, li, a{
 #nav-left{
     display: inline-block;
     width: 30%;
-    background-color: green;
+    background-color: #929292;
     height: 100%;
     overflow: hidden;
 }
@@ -33,9 +33,10 @@ h1, h2, h3, h4, h5, h6, p, li, a{
 #nav-right{
     display: inline-block;
     width: 70%;
-    background-color: blue;
+    /*! background-color: #535353; */
     height: 100%;
     margin-left: -5px;
+    background-image: linear-gradient(to right,#929292,#535353);
 }
 /*Header Section */
 header{
@@ -51,6 +52,16 @@ header{
     transform: translateY(-50%);
     color: white;
 }
+
+#rotatey-wrap {
+    width: 61%;
+    margin: 0 auto;
+}
+
+#rotatey-wrap h2 {
+    display: inline-block;
+}
+
 #header-content-wrap hr{
     width: 20%;
     border: none;
