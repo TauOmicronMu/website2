@@ -54,13 +54,8 @@ header{
     color: white;
 }
 
-#rotatey-wrap {
-    width: 61%;
+#header-content-wrap h2 {
     margin: 0 auto;
-}
-
-#rotatey-wrap h2 {
-    display: inline-block;
 }
 
 #header-content-wrap hr{

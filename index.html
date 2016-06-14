@@ -13,53 +13,56 @@
 </head>
 
 <body>
-  <nav id="topbar">
-      <div id="nav-left">
-          <h1><span>Tom</span> Goodman</h1>
-      </div>
-      <div id="nav-right">
-          <div id="menuicons"></div>
-          <div id="menubutton"></div>
-      </div>
-  </nav>
+<nav id="topbar">
+    <div id="nav-left">
+        <h1><span>Tom</span> Goodman</h1>
+    </div>
+    <div id="nav-right">
+        <div id="menuicons"></div>
+        <div id="menubutton"></div>
+    </div>
+</nav>
 
-  <header>
-      <div id="header-content-wrap">
-          <h2 class="text-animation" style="float: left;">I am a <span class="rotate">Developer, Student, Designer, Musician, President</span></h2>
-          <hr>
-          <i class="fa fa-twitter" aria-hidden="true"></i>
-          <i class="fa fa-github" aria-hidden="true"></i>
-          <i class="fa fa-linkedin" aria-hidden="true"></i>
-      </div>
-  </header>
+<header>
+    <div id="header-content-wrap">
+        <div style="text-align: center;">
+            <h2 style="float: left;">I am a</h2><h2><span class="rotate">Developer, Student, Designer, Musician, President</span></h2>
+        </div>
+        <hr>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-github" aria-hidden="true"></i>
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+    </div>
+</header>
 
-  <section id="scrollybar">
-      <img src="img/jagex.svg"/>
-      <img src="img/majestic.png"/>
-      <img src="img/uob.png"/>
-     <!--  <img src="img/css.png"/> -->
-  </section>
+<section id="scrollybar">
+    <img src="img/jagex.svg"/>
+    <img src="img/majestic.png"/>
+    <img src="img/uob.png"/>
+    <!--  <img src="img/css.png"/> -->
+</section>
 
-  <section id="aboutme">
-      <h2>About Me</h2>
-      <hr>
-      <div id="profile-image">
-          <img src="img/tom.png"/>
-      </div>
-      <p>Alex is a massive cunt.</p>
-  </section>
+<section id="aboutme">
+    <h2>About Me</h2>
+    <hr>
+    <div id="profile-image">
+        <img src="img/tom.png"/>
+    </div>
+    <p>Alex is a massive cunt.</p>
+</section>
 
-  <section id="projects">
-      Lalalala i did some shit...
-  </section>
+<section id="projects">
+    Lalalala i did some shit...
+</section>
 
-    <script>
-	$(".rotate").textrotator({
-	  animation: "dissolve", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
-	  separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
-	  speed: 2000 // How many milliseconds until the next word show.
+<script>
+    $(document).ready(function(){
+        $(".rotate").textrotator({
+            animation: "dissolve",
+            speed: 2000
+        });
     });
-    </script>
+</script>
 
 </body>
 
