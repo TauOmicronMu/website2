@@ -114,3 +114,7 @@ header{
     position: relative;
     top: -25px;
 }
+
+.bx-wrapper {
+    max-width: 100% !important;
+}
