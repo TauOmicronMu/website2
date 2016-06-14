@@ -152,8 +152,14 @@ header{
     padding: 20px;
 }
 
+#aboutme-wrap {
+    width: 100%;
+    text-align: center;
+}
+
 #profile-image {
     height: 100%;
+    width: 30%;
     display: inline-block;
     padding: 20px;
 }
@@ -161,8 +167,9 @@ header{
 #aboutme-text {
     margin: 20px;
     height: 100%;
-    width: 60%;
+    width: 40%;
     display: inline-block;
+    text-align: justify;
 }
 
 #aboutme-text p {
