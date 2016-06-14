@@ -80,11 +80,12 @@ header{
 }
 
 #header-content-wrap i:hover {
-    font-size: 40px;
+    font-size: 72px;
 }
 #header-content-wrap h2{
     font-family: 'Quicksand', 'sans-serif';
     font-size: 35px;
+    width: 77%;
 }
 
 #rotatey-wrap {
