@@ -110,6 +110,11 @@ header{
     width: 200px;
     padding: 15px 70px;
 }
+
+.csslogo {
+    width: 100px;
+}
+
 #scrollybar img:nth-child(3){
     position: relative;
     top: -25px;
