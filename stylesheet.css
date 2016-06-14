@@ -134,6 +134,10 @@ header{
 }
 
 /*About Me Section */
+#aboutme {
+    display: inline-block;
+}
+
 #profile-image {
     text-align: center;
     padding: 5px;
@@ -155,8 +159,12 @@ header{
 }
 
 #aboutme-text {
+    margin: 20px;
     height: 100%;
-    width: 100%;
+    width: 60%;
     display: inline-block;
-    background-color: aquamarine;
+}
+
+#aboutme-text p {
+    padding: 10px;
 }
