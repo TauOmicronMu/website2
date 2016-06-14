@@ -11,6 +11,13 @@ h1, h2, h3, h4, h5, h6, p, li, a{
 }
 
 /*Navigation */
+
+nav{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
 #topbar{
     height: 60px;
     background-color: red;
@@ -38,6 +45,7 @@ h1, h2, h3, h4, h5, h6, p, li, a{
     height: 100%;
     margin-left: -5px;
     background-image: linear-gradient(to right,#929292,#535353);
+
 }
 /*Header Section */
 header{
@@ -120,10 +128,6 @@ header{
     padding: 15px 70px;
 }
 
-.csslogo {
-    width: 100px;
-}
-
 #scrollybar img:nth-child(3){
     position: relative;
     top: -25px;
@@ -154,7 +158,6 @@ header{
 
 #aboutme-wrap {
     width: 100%;
-    text-align: center;
 }
 
 #profile-image {
@@ -162,6 +165,7 @@ header{
     width: 30%;
     display: inline-block;
     padding: 20px;
+    padding-left: 5%;
 }
 
 #aboutme-text {
