@@ -101,10 +101,11 @@ header{
 /*Scrollbar Section */
 #scrollybar{
     height: auto;
-    width: 80%;
+    width: 100%;
     text-align: center;
     margin: auto;
 }
+
 #scrollybar img{
     width: 200px;
     padding: 15px 70px;
